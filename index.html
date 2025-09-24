@@ -31,16 +31,20 @@
             </div>
         </section>
 
+        <!-- Reemplaza la sección del carrito con esto: -->
         <section class="cart-section">
-            <h2>Tu Carrito de Compras</h2>
+            <h2>🛒 Tu Carrito de Compras</h2>
             <div class="cart-items" id="cart-items">
-                <!-- Los items del carrito aparecen aquí -->
+                <p class="empty-cart">🛒 Tu carrito está vacío</p>
             </div>
-            <div class="cart-total">
-                <h3>Total: $<span id="total-price">0</span></h3>
-                <button class="checkout-btn" id="checkout-btn">Finalizar Compra</button>
+    
+            <div id="payment-section" style="display: none;">
+                <div class="cart-total">
+                    <h3>Total: $<span id="total-price">0</span></h3>
+                    <button class="checkout-btn" id="checkout-btn">💳 Proceder al Pago</button>
             </div>
-        </section>
+    </div>
+</section>
     </main>
 
     <footer>

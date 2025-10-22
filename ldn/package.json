@@ -1,0 +1,23 @@
+{
+  "name": "ldn",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/index.html",
+  "scripts": {
+    "dev": "vite --open",
+    "format": "prettier --write \"src/**/*.{js,jsx,ts,tsx,json,css,html}\"",
+    "lint": "eslint \"src/**/*.{js,jsx,ts,tsx}\"",
+    "build": "vite build",
+    "preview": "vite preview",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^9.36.0",
+    "eslint-config-prettier": "^10.1.8",
+    "prettier": "^3.6.2",
+    "vite": "^7.1.7"
+  }
+}

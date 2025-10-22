@@ -1,0 +1,232 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      /*
+        6>5 true
+        5>=20 false true
+        1==1 false
+        3!=2 diferente
+        3%2 ==> es el resto de la división
+
+        */
+      /*EJERCICIO 1
+        let num=Number(prompt("Dime un número"));
+        
+        if(num%2==0){
+            document.write(num+" ES PAR");
+        }    
+        else{
+            document.write(num+" ES IMPAR");
+        }
+        */
+      /*EJERCICIO 2
+        let num=Number(prompt("Dime un número"));
+        
+        if(num<0){
+            document.write(" Es negativo");
+        } else if(num>0){
+            document.write(" Es positivo");
+        } else{
+            document.write(" Este numero no es validado como positivo o negativo");
+        }*/
+      /*EJERCICIO 3
+        let multiplo=Number(prompt("Dime el multiplo"));
+
+        let num=Number(prompt("Dime un número"));
+
+        
+        if(num % multiplo == 0){
+            document.write(num+" Es multiplo" + multiplo);
+        
+        }   else{
+            document.write(num+"No es multiplo"+ multiplo);
+        }
+        */
+      /*EJERCICIO 4
+        let multiplo=Number(prompt("Dime el multiplo"));
+        let multiplo2=Number(prompt("Dime el multiplo2"));
+
+
+        let num=Number(prompt("Dime un número"));
+
+        
+        if(num % multiplo == 0 && num % multiplo2 == 0){
+            document.write(num+" Es multiplo" + multiplo+" y"+ multiplo2);
+        
+        }   else{
+            document.write(num+"No es multiplo"+ multiplo+" y"+ multiplo2);
+        }
+        */
+      /*Ejercicio 5
+
+        let num=Number(prompt("Dime un número"));
+
+        
+        if(num % multiplo == 0){
+            document.write(num+" Es multiplo" + multiplo);
+        
+        }   else{
+            document.write(num+"No es multiplo"+ multiplo);
+        }
+        falta
+        */
+      /*EJERCICIO 6
+        let num=Number(prompt("Dime un número"));
+        let num2=Number(prompt("Dime un número2"));
+
+        
+        if(num>num2){
+            document.write(num+" es mayor que " + num2);
+        
+        }   else{
+            document.write(num2+" es mayor que " + num1);
+        }
+        */
+      /*EJERCICIO 7
+        let num=Number(prompt("Dime un número"));
+        let num2=Number(prompt("Dime un número2"));
+
+        
+        if(num<num2){
+            document.write(num+" es menor que " + num2 );
+        
+        }   else{
+            document.write(num2+"  es menor que " + num);
+        }
+        */
+      /*EJERCICIO 8
+        let num=Number(prompt("Dime un número"));
+        let num2=Number(prompt("Dime un número2"));
+
+        
+        if(num2%num==0){
+            document.write("El segundo numero "+num+" divide exactamente a " + num2 );
+        }   else if(num%num2==0){
+            document.write("El primer numero "+num2+" divide exactamente a " + num );
+        }   else{
+            document.write(" No divide exactamente ");
+        }
+        */
+      /*EJERCICIO 9
+                
+        let num=Number(prompt("Dime un número"));
+        let num2=Number(prompt("Dime un número2"));
+
+        
+        if(((num+num2)%(num-num2))==0 ){
+            document.write("La división es exacta" );
+        }   else{
+            document.write(" No divide exactamente ");
+        }
+        */
+      /*Ejercicio 10
+        let num=Number(prompt("Dime un número"));
+        let num2=Number(prompt("Dime un número2"));
+
+        
+        if(((num+num2)%2)==0){
+            document.write("El numero es par" );
+        }   else{
+            document.write(" El numero no es par");
+        }
+            */
+      /*Ejercicio 11
+        let num=Number(prompt("Dime un número"));
+        let num2=Number(prompt("Dime un número2"));
+
+        
+        if((num-num2)>0){
+            document.write("A-B es positiva" );
+        }   else if(num2-num>0){
+            document.write("B-A es positiva" );
+        }   else{
+            document.write("Las restas son 0 o ambas son positivas o negativas");
+        }
+        */
+      /*Ejercicio 12
+        let num=Number(prompt("Dime un número"));
+        let num2=Number(prompt("Dime un número2"));
+        let num3=Number(prompt("Dime un número3"));
+
+
+        
+        if(num>num2 && num>num3){
+            document.write(num + " El primer numero es el mayor" );
+        }   else if(num2>num && num2>num3){
+            document.write(num2 + " El segundo numero es el mayor" );
+        }   else{
+            document.write(num3 + " El tercer numero es el mayor" );
+        }
+        */
+      /*Ejercicio 13
+        let num=Number(prompt("Dime un número"));
+        let num2=Number(prompt("Dime un número2"));
+        let num3=Number(prompt("Dime un número3"));
+
+
+        
+        if(num!=num2 && num!=num3 && num2!=num3){
+            document.write(" Los  numeros son diferente" );
+        }   else{
+            document.write(" Los tres numeros son iguales o algunos son igual" );
+        }
+        */
+      /*Ejercicio 14
+        let num=Number(prompt("Dime un número"));
+        let num2=Number(prompt("Dime un número2"));
+        let num3=Number(prompt("Dime un número3"));
+
+
+        
+        if(num<num2 && num<num3){
+            document.write(" El primer numero es el menor" );
+        }  else if(num2<num && num2<num3){
+            document.write(" El segundo numero es el menor" );
+
+        }  else{
+            document.write(" Les o algunos son igual" );
+        }
+        */
+      /*
+        let num=Number(prompt("Dime un número"));
+        let num2=Number(prompt("Dime un número2"));
+        let num3=Number(prompt("Dime un número3"));
+
+
+        
+        if(num<num2 && num<num3){
+            document.write(" El primer numero es el menor" );
+        }  else if(num2<num && num2<num3){
+            document.write(" El segundo numero es el menor" );
+
+        }  else{
+            document.write(" Les o algunos son igual" );
+        }
+        */
+      //Ejercicio 18
+
+      let a = Number(prompt("Dime un número"));
+      let b = Number(prompt("Dime un número2"));
+      let c = Number(prompt("Dime un número3"));
+
+      if (a == 0 || b ** 2 - 4 * a * c < 0) {
+        document.write("NO TIENE SOLUCIONES");
+      } else {
+        x = -b + (Math.sqrt(b ** 2 - 4 * a * c) / 2) * a;
+        y = -b - (Math.sqrt(b ** 2 - 4 * a * c) / 2) * a;
+
+        if (x != y) {
+          document.write(" SI TIENE POSIBLE 2 posibles soluciones");
+        } else {
+          document.write(" SI TIENE 1 solucion");
+        }
+      }
+    </script>
+  </body>
+</html>

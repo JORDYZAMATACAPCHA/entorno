@@ -1,0 +1,105 @@
+
+h2{
+  margin:0px;
+}
+div{
+  display:inline-block;
+  border:1px dashed black;
+  margin:10px;
+  padding:10px;
+}
+
+a{
+  color:blue;
+  text-decoration:none;
+}
+
+/* Bordes lisos para todas las tablas */
+table{
+  border-collapse:collapse;
+  border:1px solid black;
+}
+td {
+  width:30px;
+  height:30px;
+  border:1px solid black;
+}
+
+/* Algunas pseudoclases: */
+a:hover{
+  background-color:yellow;
+}
+
+/*TABLA 1*/
+div:nth-of-type(1) td:hover{
+  background-color: black;
+}
+div:nth-of-type(1) td:nth-child(1){
+  border-right: 3px solid ;
+}
+div:nth-of-type(1) td:nth-child(4) {
+  border-right: 3px solid ;
+}
+div:nth-of-type(1) td:nth-child(6) {
+  border-right: 3px solid ;
+}
+div:nth-of-type(1) td:nth-child(8) {
+  border-right: 3px solid ;
+}
+
+
+/*TABLA 2*/
+div:nth-of-type(2) td:nth-of-type(odd) {
+  
+  background-color: black;
+
+}
+/*TABLA 3*/
+div:nth-of-type(3) tr:nth-child(even) td {
+  
+  background-color: black;
+
+}
+/*TABLA 4*/
+div:nth-of-type(4) tr:nth-child(odd) td:nth-child(odd),
+div:nth-of-type(4) tr:nth-child(even) td:nth-child(even)
+ {
+  background-color: black;
+}
+/*TABLA 5*/
+div:nth-of-type(5)  tr:nth-child(1) td:nth-child(1),
+div:nth-of-type(5)  tr:nth-child(2) td:nth-child(-n+2),
+div:nth-of-type(5)  tr:nth-child(3) td:nth-child(-n+3),
+div:nth-of-type(5)  tr:nth-child(4) td:nth-child(-n+4),
+div:nth-of-type(5)  tr:nth-child(5) td:nth-child(-n+5) {
+  background-color: black;
+}
+/*TABLA 6*/
+div:nth-of-type(6) tr:nth-child(1) td:nth-child(n+1),
+div:nth-of-type(6) tr:nth-child(2) td:nth-child(n+2),
+div:nth-of-type(6) tr:nth-child(3) td:nth-child(n+3),
+div:nth-of-type(6) tr:nth-child(4) td:nth-child(n+4),
+div:nth-of-type(6) tr:nth-child(5) td:nth-child(n+5) {
+  background-color: black;
+}
+
+/*TABLA 7*/
+div:nth-of-type(7) tr:nth-child(1) td:nth-child(5),
+div:nth-of-type(7) tr:nth-child(2) td:nth-child(4),
+div:nth-of-type(7) tr:nth-child(2) td:nth-child(5),
+div:nth-of-type(7) tr:nth-child(2) td:nth-child(6),
+div:nth-of-type(7) tr:nth-child(3) td:nth-child(3),
+div:nth-of-type(7) tr:nth-child(3) td:nth-child(4),
+div:nth-of-type(7) tr:nth-child(3) td:nth-child(5),
+div:nth-of-type(7) tr:nth-child(3) td:nth-child(6),
+div:nth-of-type(7) tr:nth-child(3) td:nth-child(7),
+div:nth-of-type(7) tr:nth-child(4) td:nth-child(2),
+div:nth-of-type(7) tr:nth-child(4) td:nth-child(3),
+div:nth-of-type(7) tr:nth-child(4) td:nth-child(4),
+div:nth-of-type(7) tr:nth-child(4) td:nth-child(5),
+div:nth-of-type(7) tr:nth-child(4) td:nth-child(6),
+div:nth-of-type(7) tr:nth-child(4) td:nth-child(7),
+div:nth-of-type(7) tr:nth-child(4) td:nth-child(8),
+div:nth-of-type(7) tr:nth-child(5) td {
+  background-color: black;
+}

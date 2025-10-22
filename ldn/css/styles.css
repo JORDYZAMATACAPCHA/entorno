@@ -1,0 +1,41 @@
+p {
+ color: orange;
+}
+table, th, td {
+  border: 1px solid white;
+  border-collapse: collapse;
+  text-align: center;
+}
+th, td {
+  background-color: #96D4D4;
+
+  padding-top: 10px;
+  padding-bottom: 20px;
+  padding-left: 30px;
+  padding-right: 40px;
+}
+thead {
+        color:navy;
+}
+tbody {
+        color:green;
+}
+tfoot {
+        color:maroon;
+}
+.LDN{
+  background-color: black;
+}
+
+#SOJ{
+  background-color: blueviolet;
+}
+#nivel-1{
+  list-style-type: lower-alpha;
+}
+
+
+#nivel-2{
+  list-style-type: lower-alpha;
+}
+

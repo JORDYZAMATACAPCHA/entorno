@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <code>
+      <script>
+        /*
+        for (let i=1; i<=10; i++){
+
+            document.write("SI, NO, ")
+        }
+*/
+        /*
+        let num = 1;
+// do....while. la primera vuelta se la come la siguiente no
+// si es que no pide numero de vueltas y son muchas cantidades
+        while(num<=100){
+            document.write(num+ ", ");
+            num=num+1;            
+        }
+            document.writeln("FIN ");
+       
+*/
+        //si es que se sabe el numero de vueltas
+        // ejercicio numero 2
+        /*
+        for(let num=1; num<=100; num=num+1){
+            document.write(num+", ")
+        }
+            */
+        // ejercicio numero 3
+        /*
+        for(let num=1; num<=100; num=num+2){
+            document.write(num+", ")
+        }
+            */
+        /*
+//ejercicio 
+        let suma=0;
+        let N=3;
+        for(let i=1; i<=N; i++){
+            suma=suma+i;
+        }
+        document.write(suma/N);
+
+*/
+        /*
+
+        EJERCICIO 8
+        let num;
+        let suma = 0;
+        let cant = 0;
+        let max = 0;
+        let min = 0;
+
+        // do....while. la primera vuelta se la come la siguiente no
+        do {
+          num = Number(prompt("Escribe un número:"));
+          if (num != 0) {
+            suma = suma + num;
+            cant++;
+            if (max == num || num > max) {
+              max = num;
+            }
+            if (min == num || num < min) {
+              min = num;
+            }
+          } else {
+            document.write("Ingreso 0 por lo tanto no se puede mostrar datos");
+          }
+        } while (num != 0);
+        document.write(
+          "La media es: " + suma / cant + "; " + cant + "; " + max + ";" + min
+        );
+        */
+      // EJERCICIO NUMERO 7
+        let num = 0;
+        let suma = 0;
+        let cant = 0;
+        do {
+          num = Number(prompt("Ingrese un numero:"));
+          if (num!=-1) {
+            suma = suma + num;
+            cant++;
+          }
+        } while (num!=-1);
+        document.write("La media es: "+suma/cant);
+      </script>
+    </code>
+  </body>
+</html>

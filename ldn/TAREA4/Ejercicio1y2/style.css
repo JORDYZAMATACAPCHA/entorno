@@ -1,0 +1,38 @@
+div {
+    overflow: auto;
+}
+
+/* 
+-Sin overflow: auto;: El div se ignoraría la altura de la imagen flotante, y su borde se dibujaría justo debajo del título o párrafo.
+-Con overflow: auto;: El div expande automáticamente su altura para encerrar la imagen flotante, "limpiando" efectivamente el float y evitando que el contenido posterior se envuelva o se posicione incorrectamente.
+*/
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+/*Comienza Ejercicio 1 */
+.left img{
+    float: left;
+}
+
+.right img{
+    float: right;
+}
+
+.none img{
+    float: none;
+}
+
+
+
+/*Comienza Ejercicio 2 */
+.empuja div:first-of-type, .empuja div:nth-of-type(2) {
+    
+}
+.empuja div:nth-of-type(3) {
+    /*Limpiamos float anterior*/
+    
+}
+
